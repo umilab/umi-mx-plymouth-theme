@@ -19,6 +19,14 @@ sudo update-alternatives --config default.plymouth
 sudo update-initramfs -u
 ```
 
+## Preview
+
+```bash
+# You can change the iteration counter for time to quit
+
+sudo plymouthd --debug  ; sudo plymouth --show-splash ; for ((I=0;I<10;I++)); do sleep 1 ; sudo plymouth --update=event$I ; done ; sudo plymouth --quit
+```
+
 ## License
 
 Licensed under [GPLv3](LICENSE).
