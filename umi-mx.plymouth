@@ -1,0 +1,10 @@
+[Plymouth Theme]
+Name=UMI Plymouth
+Description=UMI Moon X Design Styled Boot Splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/umi-mx
+ScriptFile=/usr/share/plymouth/themes/umi-mx/umi-mx.script
+
+
