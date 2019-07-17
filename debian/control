@@ -1,0 +1,12 @@
+Source: umi-mx-plymouth-theme
+Section: misc
+Priority: optional
+Maintainer: UMI Packages Builder <packages@umilab.org>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8),
+
+Package: umi-mx-plymouth-theme
+Architecture: all
+Depends: plymouth-themes
+Description: UMI-MX Plymouth Theme
+ Moon X Design styled boot splash for official UMI OS release.

@@ -1,0 +1,5 @@
+umi-mx-plymouth-theme (2019.07.17) unstable; urgency=medium
+
+  * initial base changes for UMI-OS
+
+ -- UMI Packages Builder <packages@umilab.org>  Wed, 17 Jul 2019 17:00:00 +0100
